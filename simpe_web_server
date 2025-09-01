@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TCP/IP Protocol Suite</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: pink;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">TCP/IP PROTOCOL SUITE</h2>
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>LAYER</th>
+            <th>PROTOCOLS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Application Layer</td>
+            <td>HTTP, FTP, DNS, Telnet, SSH</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Transport Layer</td>
+            <td>TCP, UDP</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Internet Layer</td>
+            <td>ICMP, IGMP, ARP, IPv4/IPv6</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Network Access Layer</td>
+            <td>MAC/Ethernet, FDDI, Frame Relay</td>
+        </tr>
+    </table>
+</body>
+</html>
